@@ -1,0 +1,35 @@
+.form {
+  display: block;
+  width: 400px;
+  margin: 15px;
+  border: 1px solid rgb(19, 17, 17);
+  padding: 15px;
+}
+.label {
+  color: rgb(13, 14, 14);
+}
+.form__item {
+  color: rgb(10, 10, 10);
+
+  padding: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.form__button {
+  color: rgb(15, 13, 17);
+  background-color: rgb(216, 209, 202);
+  border-radius: 8px;
+  border-color: rgb(133, 147, 158);
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+ 
+}
+.form__button:hover,
+.form__button:focus {
+  background-color: rgb(149, 193, 233);
+}
+.form__item:hover,
+.form__item:focus {
+  border: 2px solid rgb(20, 131, 235);
+}

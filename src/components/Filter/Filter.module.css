@@ -1,0 +1,17 @@
+.filter__title {
+  color: rgb(6, 6, 32);
+  font-size: 17px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.filter__item {
+  color: rgb(21, 21, 22);
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.filter__item:hover,
+.filter__item:focus {
+  border: 2px solid rgb(20, 131, 235);
+}
