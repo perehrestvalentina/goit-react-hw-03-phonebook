@@ -109,6 +109,8 @@ export class App extends Component {
         <ContactForm onSubmit={this.addNewContact} />
 
         <h2 className={css.title}>Contacts</h2>
+        <div>
+        <p>Total contacts: {contacts.length}</p></div>
 
         <Filter value={filter} onChange={this.handleInputChange} />
         <ContactList
