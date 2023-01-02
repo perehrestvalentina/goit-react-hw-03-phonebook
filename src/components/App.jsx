@@ -53,15 +53,13 @@ export class App extends Component {
       contacts: [newContact, ...contacts],
     }));
   };
-
+  handleInputChange = event => {
+    this.setState({ filter: event.currentTarget.value });
+  };
   deleteContact = contactId => {
     this.setState(prevState => ({
       contacts: prevState.contacts.filter(contact => contact.id !== contactId),
     }));
-  };
-
-  handleInputChange = event => {
-    this.setState({ filter: event.currentTarget.value });
   };
 
   getNormaliseContacts = () => {
